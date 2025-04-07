@@ -1,14 +1,12 @@
-import Counter from "./Components/Counter";
-import Greetings from "./Components/Greetings";
+import Greetings from "./Components/Greetings.jsx";
 
 
 function App(){
-  return 
-    <div>
-      <Counter />
-      <Greetings />
-    </div>
-
+  return
+  <div>
+    <Greetings />
+  </div>
 }
+
 
 export default App;
