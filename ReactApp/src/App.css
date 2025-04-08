@@ -1,7 +1,7 @@
 #root {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: rgba(18, 19, 19, 0.986);
+  background-color: rgba(248, 248, 248, 0.986);
 }
 
 .app {
@@ -62,7 +62,7 @@ button:hover {
   padding: 1rem;
   margin: 0;
   background-color: #e8fdfc; /* Soft mint */
-  border: 1px solid #a7f3d0;
+  border: 1px solidrgb(23, 145, 88);
   border-radius: 5px;
 }
 
@@ -74,3 +74,12 @@ button:hover {
 .empty {
   color: #999;
 }
+
+.list-wrapper {
+  background-color: #e8fdfc; /* light mint */
+  border: 1px solid #a7f3d0;
+  padding: 1rem;
+  border-radius: 6px;
+}
+
+

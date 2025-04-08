@@ -25,7 +25,9 @@ function App() {
           />
           <button onClick={handleAddItem}>Add Item</button>
         </div>
-        <ItemList items={items} />
+        <div className="list-wrapper">
+  <ItemList items={items} />
+</div>
       </div>
     </div>
   );
